@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url>
+	<loc>helpway.com.sa</loc>
+	<lastmod>2020-12-21</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>1.0</priority>
+	<image:image>
+	<image:loc>helpway.com.sa/img/hw_road.webp</image:loc>
+	<image:title>Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/man_on_computer.webp</image:loc>
+	<image:title>image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/stock-photo-businessman-at-work-close-up-top-view-of-man-working-on-laptop-while-sitting-at-the-wooden-desk-272975228.webp</image:loc>
+	<image:title>image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/stock-photo-aerial-view-of-self-driving-autopilot-cars-driving-on-a-highway-with-technology-tracking-them-1385801519.webp</image:loc>
+	<image:title>image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/notification.webp</image:loc>
+	<image:title>image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/payment.webp</image:loc>
+	<image:title>image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/insurance.webp</image:loc>
+	<image:title>image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/Warehouse_of_Grupo_Martins_in_Camacari_Brazil.webp</image:loc>
+	<image:title>image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/couscous-meal-prep-salat-11.webp</image:loc>
+	<image:title>image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/iStock-925332638-1024x683.webp</image:loc>
+	<image:title>image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/placeholder-image.png</image:loc>
+	<image:title>Image Alt</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/placeholder-image.png</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/webdesign_website_www.hellmer.at_letmaier_slider_smartphone.webp</image:loc>
+	<image:title>image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/apps-mobile-smartphone-ss-1920-800x450.webp</image:loc>
+	<image:title>image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+</urlset>

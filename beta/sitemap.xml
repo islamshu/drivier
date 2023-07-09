@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url>
+	<loc>helpway.com.sa</loc>
+	<lastmod>2020-12-22</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>1.0</priority>
+	<image:image>
+	<image:loc>helpway.com.sa/img/hw_road.webp</image:loc>
+	<image:title>Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/registration.webp</image:loc>
+	<image:title>registration</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/booking.webp</image:loc>
+	<image:title>booking</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/tracking.webp</image:loc>
+	<image:title>tracking</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/notification.webp</image:loc>
+	<image:title>notification</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/payment.webp</image:loc>
+	<image:title>payment</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/insurance.webp</image:loc>
+	<image:title>insurance</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/retail.webp</image:loc>
+	<image:title>image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/restaurant.webp</image:loc>
+	<image:title>image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/offices.webp</image:loc>
+	<image:title>image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/placeholder-image.png</image:loc>
+	<image:title>Image Alt</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/placeholder-image.png</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/web_design.webp</image:loc>
+	<image:title>image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/apps_dev.webp</image:loc>
+	<image:title>image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/registration.webp</image:loc>
+	<image:title>image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>helpway.com.sa/ar/</loc>
+	<lastmod>2020-12-22</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>helpway.com.sa/img/hw_road.webp</image:loc>
+	<image:title>Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/registration.webp</image:loc>
+	<image:title>registration</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/booking.webp</image:loc>
+	<image:title>booking</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/tracking.webp</image:loc>
+	<image:title>tracking</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/notification.webp</image:loc>
+	<image:title>notification</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/payment.webp</image:loc>
+	<image:title>payment</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/insurance.webp</image:loc>
+	<image:title>insurance</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/retail.webp</image:loc>
+	<image:title>image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/restaurant.webp</image:loc>
+	<image:title>image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/offices.webp</image:loc>
+	<image:title>image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/placeholder-image.png</image:loc>
+	<image:title>Image Alt</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/placeholder-image.png</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/web_design.webp</image:loc>
+	<image:title>image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/apps_dev.webp</image:loc>
+	<image:title>image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/registration.webp</image:loc>
+	<image:title>image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>helpway.com.sa/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+</urlset>

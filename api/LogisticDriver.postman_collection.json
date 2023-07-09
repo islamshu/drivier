@@ -1,0 +1,639 @@
+{
+	"info": {
+		"_postman_id": "ece6c476-dd69-410c-bb09-1b2ebd408c3d",
+		"name": "LogisticDriver",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"husain.albayouk@gmail.com\",\r\n    \"password\": \"150150150\"\r\n}"
+				},
+				"url": {
+					"raw": "http://empower.sa/spark/api/v1/login",
+					"protocol": "http",
+					"host": [
+						"empower",
+						"sa"
+					],
+					"path": [
+						"spark",
+						"api",
+						"v1",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ChangePassword",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer dZtMFBAi4hYqR7ut9d8GF5afxT2K6uW6qgBLo1M1SJ8TnnlWxg6Pa6Efu2NADufnhwybBQsCdb4kWc2VvMoWm5IFgm7VYPWFFmAb"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"oldPassword\" : \"120110220\",\r\n    \"password\": \"120110220\",\r\n    \"password_confirmation\": \"120110220\"\r\n}"
+				},
+				"url": {
+					"raw": "http://empower.sa/spark/api/v1/changePassword",
+					"protocol": "http",
+					"host": [
+						"empower",
+						"sa"
+					],
+					"path": [
+						"spark",
+						"api",
+						"v1",
+						"changePassword"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "listDriverOrders",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer enLBPnlbd58wO0vxKPHImFKxysoW8ZI9jCWOHnoG0u5SeUZJtjI0w84hw5Qz9MIqHVTnltmYjVSAUD6IHEEEmQVI6bqWjaS9Og05"
+					},
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://empower.sa/spark/api/v1/listOrders",
+					"protocol": "http",
+					"host": [
+						"empower",
+						"sa"
+					],
+					"path": [
+						"spark",
+						"api",
+						"v1",
+						"listOrders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ShowOrder",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer dZtMFBAi4hYqR7ut9d8GF5afxT2K6uW6qgBLo1M1SJ8TnnlWxg6Pa6Efu2NADufnhwybBQsCdb4kWc2VvMoWm5IFgm7VYPWFFmAb"
+					},
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"order_id\" : 1,\r\n    \"status\" : \"rescheduled\",\r\n    \"note\" : \"تواصلت مع الزبون و اجل ميعاد الإستلام\",\r\n    \"another_time\" : \"17-10-2020 09:30\"\r\n}"
+				},
+				"url": {
+					"raw": "http://empower.sa/spark/api/v1/showOrder",
+					"protocol": "http",
+					"host": [
+						"empower",
+						"sa"
+					],
+					"path": [
+						"spark",
+						"api",
+						"v1",
+						"showOrder"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Arabic_Notifications",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer dZtMFBAi4hYqR7ut9d8GF5afxT2K6uW6qgBLo1M1SJ8TnnlWxg6Pa6Efu2NADufnhwybBQsCdb4kWc2VvMoWm5IFgm7VYPWFFmAb"
+					},
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://empower.sa/spark/api/v1/ar/notifications",
+					"protocol": "http",
+					"host": [
+						"empower",
+						"sa"
+					],
+					"path": [
+						"spark",
+						"api",
+						"v1",
+						"ar",
+						"notifications"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "English_Notifications",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer dZtMFBAi4hYqR7ut9d8GF5afxT2K6uW6qgBLo1M1SJ8TnnlWxg6Pa6Efu2NADufnhwybBQsCdb4kWc2VvMoWm5IFgm7VYPWFFmAb"
+					},
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://empower.sa/spark/api/v1/en/notifications",
+					"protocol": "http",
+					"host": [
+						"empower",
+						"sa"
+					],
+					"path": [
+						"spark",
+						"api",
+						"v1",
+						"en",
+						"notifications"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logout",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer uwMuWl9BsfvPUKtz3MrUiFcxg1sPfXaVczaA910rjuLAMDiRbRhpz061PyTwiiRRqFG60brlO1NDirW39xmPQtou8TMYXsgtIr4d"
+					},
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://empower.sa/spark/api/v1/driver/logout",
+					"protocol": "http",
+					"host": [
+						"empower",
+						"sa"
+					],
+					"path": [
+						"spark",
+						"api",
+						"v1",
+						"driver",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ordersHistory",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer dZtMFBAi4hYqR7ut9d8GF5afxT2K6uW6qgBLo1M1SJ8TnnlWxg6Pa6Efu2NADufnhwybBQsCdb4kWc2VvMoWm5IFgm7VYPWFFmAb"
+					},
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://empower.sa/spark/api/v1/orders/history",
+					"protocol": "http",
+					"host": [
+						"empower",
+						"sa"
+					],
+					"path": [
+						"spark",
+						"api",
+						"v1",
+						"orders",
+						"history"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "changeOrderStatus",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer enLBPnlbd58wO0vxKPHImFKxysoW8ZI9jCWOHnoG0u5SeUZJtjI0w84hw5Qz9MIqHVTnltmYjVSAUD6IHEEEmQVI6bqWjaS9Og05",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"order_id\" : 1,\r\n    \"status\" : \"delivered\"\r\n\r\n}"
+				},
+				"url": {
+					"raw": "http://empower.sa/spark/api/v1/changeOrderStatus",
+					"protocol": "http",
+					"host": [
+						"empower",
+						"sa"
+					],
+					"path": [
+						"spark",
+						"api",
+						"v1",
+						"changeOrderStatus"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "scanOrder",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer enLBPnlbd58wO0vxKPHImFKxysoW8ZI9jCWOHnoG0u5SeUZJtjI0w84hw5Qz9MIqHVTnltmYjVSAUD6IHEEEmQVI6bqWjaS9Og05"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"order_id\" : \"1876822497359\"\r\n}"
+				},
+				"url": {
+					"raw": "http://empower.sa/spark/api/v1/scanOrder",
+					"protocol": "http",
+					"host": [
+						"empower",
+						"sa"
+					],
+					"path": [
+						"spark",
+						"api",
+						"v1",
+						"scanOrder"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateUserDeviceToken",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer dZtMFBAi4hYqR7ut9d8GF5afxT2K6uW6qgBLo1M1SJ8TnnlWxg6Pa6Efu2NADufnhwybBQsCdb4kWc2VvMoWm5IFgm7VYPWFFmAb"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_id\" : 1,\r\n    \"device_token\" : \"333333333333333333333333333333333\"\r\n}"
+				},
+				"url": {
+					"raw": "http://empower.sa/spark/api/v1/driver/device_token",
+					"protocol": "http",
+					"host": [
+						"empower",
+						"sa"
+					],
+					"path": [
+						"spark",
+						"api",
+						"v1",
+						"driver",
+						"device_token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateUserLatLong",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer dZtMFBAi4hYqR7ut9d8GF5afxT2K6uW6qgBLo1M1SJ8TnnlWxg6Pa6Efu2NADufnhwybBQsCdb4kWc2VvMoWm5IFgm7VYPWFFmAb"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_id\" : 1,\r\n    \"driver_lat\" : \"22.2222\",\r\n    \"driver_long\" : \"33.333\"\r\n}"
+				},
+				"url": {
+					"raw": "http://empower.sa/spark/api/v1/driver/lat_long",
+					"protocol": "http",
+					"host": [
+						"empower",
+						"sa"
+					],
+					"path": [
+						"spark",
+						"api",
+						"v1",
+						"driver",
+						"lat_long"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ResetPassword",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" : \"husain.albayouk@gmail.com\"\r\n}"
+				},
+				"url": {
+					"raw": "http://empower.sa/spark/api/v1/password/email",
+					"protocol": "http",
+					"host": [
+						"empower",
+						"sa"
+					],
+					"path": [
+						"spark",
+						"api",
+						"v1",
+						"password",
+						"email"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ContactToSupport",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer HB8QgOGRyx5BEXTM5dAcxLNsiD5QUXrQ2fYjx6qeKkktewfAEjwdZDduUUlFAJ6UA2BUyEUXYxNS5585LlLTcoY95tron47k5suE",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"order_id\" : 1,\r\n    \"message\" : \"يوجد مشكلة في هذا الطلب\"\r\n}"
+				},
+				"url": {
+					"raw": "http://empower.sa/spark/api/v1/order/support",
+					"protocol": "http",
+					"host": [
+						"empower",
+						"sa"
+					],
+					"path": [
+						"spark",
+						"api",
+						"v1",
+						"order",
+						"support"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AcceptOrder",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer f0QNknYhsxhvQCgAuj5XLMGyzKO3vsyqyWFs2RjUnWxBLNadqbSgXSjT9cCoNiG5oRNNebfFcLRf3CfP77fqdJl4abrQBAJFchzE"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"order_id\" : 1,\r\n    \"isAccept\" : 1\r\n}"
+				},
+				"url": {
+					"raw": "http://empower.sa/spark/api/v1/order/response",
+					"protocol": "http",
+					"host": [
+						"empower",
+						"sa"
+					],
+					"path": [
+						"spark",
+						"api",
+						"v1",
+						"order",
+						"response"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
